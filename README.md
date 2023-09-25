@@ -59,17 +59,21 @@ To install the book rating application, follow these steps:
    ```
    php artisan db:seed
    ```
-8. Compile the application's assets and start the development server:
+8. Install the Node.js dependencies:
+   ```
+   npm install
+   ```
+9.  Compile the application's assets and start the development server:
 
-   ```
-   npm run dev
-   ```
-9. Start the application.
+    ```
+    npm run dev
+    ```
+10. Start the application.
 
-   ```
-   php artisan serve
-   ```
-10. The server should now be running at [http://localhost:8000](http://localhost:8000).
+    ```
+    php artisan serve
+    ```
+11. The server should now be running at [http://localhost:8000](http://localhost:8000).
 
 ## Features
 
