@@ -10,18 +10,13 @@ This is a book rating application that allows users to browse, search, and rate 
   - [Tables of Contents](#tables-of-contents)
   - [Prequisites](#prequisites)
   - [Installation](#installation)
-  - [Features](#features)
-  - [How to use](#how-to-use)
-  - [Endpoint Specification](#endpoint-specification)
-    - [Browse a list of books](#browse-a-list-of-books)
-      - [GET /](#get-)
-      - [GET /books](#get-books)
     - [View the list of top 10 most famous authors](#view-the-list-of-top-10-most-famous-authors)
       - [GET /authors](#get-authors)
     - [Rate books on a scale of 1 to 10](#rate-books-on-a-scale-of-1-to-10)
       - [GET /ratings](#get-ratings)
       - [GET /book/authorId](#get-bookauthorid)
       - [POST /ratings](#post-ratings)
+  - [Contact](#contact)
 
 ## Prequisites
 
@@ -39,9 +34,9 @@ To install the book rating application, follow these steps:
    ```
    git clone https://github.com/JAW12/timedoor_backend_bookstore.git
    ```
-2. Navigate to the project directory:
 
-   ```
+   Navigate to the project directory:
+2. ```
    cd timedoor_backend_bookstore
    ```
 3. Install the dependencies:
